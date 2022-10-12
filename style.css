@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 5px lightskyblue;
+}
+
+.main-container{
+    /* background-color: antiquewhite; */
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.player-container{
+    /* background-color: aqua; */
+    flex: 50%;
+}
+
+#yourChoice{
+    padding: 20px;
+}
+
+.button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.916);
+    color: aliceblue;
+}
+
+.button:hover{
+    background-color: rgb(132, 129, 129);
+}
+
+.computer-container{
+    /* background-color:fuchsia; */
+    flex: 50%;
+}
+
+h3{
+    padding-top: 10px;
+}
+
+#computerChoice{
+    /* background-color: aquamarine; */
+    padding: 20px;
+}
+
+#score{
+    /* background-color: cadetblue; */
+    padding: 0 20px;
+}
